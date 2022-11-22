@@ -1,0 +1,42 @@
+@import "./primaryElements.css";
+
+/* HEADERS */
+h1 {
+	font-family: var(--header-text);
+	margin: 10px 0;
+	font-size: 1.8em;
+}
+h2 {
+	font-family: var(--header-text);
+}
+h3 {
+	font-family: var(--header-text);
+}
+/* TEXT */
+p {
+	font-family: var(--main-text);
+}
+input {
+	font-family: var(--main-text);
+}
+label {
+	font-family: var(--main-text);
+}
+/* LINKS */
+a {
+	font-family: var(--main-text);
+	transition: all 0.1s;
+}
+a:link,
+a:visited {
+	color: #2f5061;
+	text-decoration: none;
+}
+a:hover {
+	color: #ec4d68;
+	text-decoration: underline;
+}
+a:active {
+	color: #f4eae6;
+	text-decoration: underline;
+}

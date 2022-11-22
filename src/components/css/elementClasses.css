@@ -1,0 +1,53 @@
+@import "./primaryElements.css";
+
+/* HEADER */
+
+/* NAV */
+.nav-a-bubble {
+	font-family: var(--header-text);
+	font-size: 0.8em;
+	background-color: #ffe69c;
+	padding: 0.5vw;
+	margin: 0.5vw;
+	text-align: center;
+}
+
+/* MAIN */
+
+/* ROW */
+
+/* COLUMN */
+
+/* COLOURS */
+.coloursWrap {
+	display: flex;
+	margin: 1vw;
+	justify-content: space-between;
+	height: 80vh;
+}
+.colour {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	justify-items: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	flex-basis: 45%;
+	height: 100%;
+}
+.myColourDiv,
+.yourColourDiv {
+	flex-basis: 10%;
+	flex-grow: 1;
+	margin: 2%;
+	width: 70%;
+}
+/* FOOTER */
+/* .footer-p {
+}
+.footer-a {
+} */
